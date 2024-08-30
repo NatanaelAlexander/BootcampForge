@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <form action="/submit" method="post">
+        <div class="container">
+            <label for="nombre">Lorem Ipsum:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+
+        <div class="container">
+            <label for="email">Lorem Ipsum:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="container">
+            <label for="password">Lorem Ipsum:</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <div class="container">
+            <label for="edad">Lorem Ipsum:</label>
+            <input type="number" id="edad" name="edad" min="1" max="100">
+        </div>
+
+        <div class="container">
+            <label for="telefono">Lorem Ipsum:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+
+        <div class="container">
+            <label for="website">Lorem Ipsum:</label>
+            <input type="url" id="website" name="website">
+        </div>
+
+        <div class="container">
+            <label for="archivo">Lorem Ipsum:</label>
+            <input type="file" id="archivo" name="archivo">
+        </div>
+
+        <div class="container">
+            <label for="fecha">Lorem Ipsum:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+
+        <div class="container">
+            <label for="datetime">Lorem Ipsum:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+        </div>
+
+        <div class="container">
+            <label for="mes">Lorem Ipsum:</label>
+            <input type="month" id="mes" name="mes">
+        </div>
+
+        <div class="container">
+            <label for="semana">Lorem Ipsum:</label>
+            <input type="week" id="semana" name="semana">
+        </div>
+
+        <div class="container">
+            <label for="hora">Lorem Ipsum:</label>
+            <input type="time" id="hora" name="hora">
+        </div>
+
+        <div class="container">
+            <label for="color">Lorem Ipsum:</label>
+            <input type="color" id="color" name="color">
+        </div>
+
+        <div class="container">
+            <label for="rango">Lorem Ipsum:</label>
+            <input type="range" id="rango" name="rango" min="0" max="10">
+        </div>
+
+        <div class="container">
+            <input type="hidden" name="usuario_id" value="12345">
+        </div>
+
+        <div class="container">
+            <label>
+                <input type="checkbox" name="intereses" value="opcion1"> Lorem Ipsum
+            </label>
+            <label>
+                <input type="checkbox" name="intereses" value="opcion2"> Lorem Ipsum
+            </label>
+            <label>
+                <input type="checkbox" name="intereses" value="opcion3"> Lorem Ipsum
+            </label>
+        </div>
+
+        <div class="container">
+            <label>
+                <input type="radio" name="genero" value="opcion1"> Lorem Ipsum
+            </label>
+            <label>
+                <input type="radio" name="genero" value="opcion2"> Lorem Ipsum
+            </label>
+            <label>
+                <input type="radio" name="genero" value="opcion3"> Lorem Ipsum
+            </label>
+        </div>
+
+        <div class="container">
+            <label for="comentarios">Lorem Ipsum:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="container">
+            <label for="pais">Lorem Ipsum:</label>
+            <select id="pais" name="pais">
+                <option value="opcion1">Lorem Ipsum</option>
+                <option value="opcion2">Lorem Ipsum</option>
+                <option value="opcion3">Lorem Ipsum</option>
+                <option value="opcion4">Lorem Ipsum</option>
+            </select>
+        </div>
+
+        <div class="container">
+            <label for="navegador">Lorem Ipsum:</label>
+            <input list="navegadores" id="navegador" name="navegador">
+            <datalist id="navegadores">
+                <option value="Lorem Ipsum 1">
+                <option value="Lorem Ipsum 2">
+                <option value="Lorem Ipsum 3">
+                <option value="Lorem Ipsum 4">
+            </datalist>
+        </div>
+
+        <div class="container">
+            <fieldset>
+                <legend>Lorem Ipsum</legend>
+                <label for="nombre">Lorem Ipsum:</label>
+                <input type="text" id="nombre" name="nombre">
+                
+                <label for="apellido">Lorem Ipsum:</label>
+                <input type="text" id="apellido" name="apellido">
+            </fieldset>
+        </div>
+
+        <div class="container">
+            <label for="x">Numero suma 1</label>
+            <input type="number" id="x" name="x">
+            
+            <label for="y">Numero suma 2</label>
+            <input type="number" id="y" name="y">
+            
+            <button type="button" onclick="document.getElementById('resultado').value = parseInt(x.value) + parseInt(y.value)">Sumar</button>
+            
+            <output id="resultado" name="resultado"></output>
+        </div>
+
+        <div class="container">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
