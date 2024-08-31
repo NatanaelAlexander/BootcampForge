@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-yellow {
+    width: 100%;
+    height: 150px;
+    background-color: #facc15; /* amarillo */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box-fuchsia {
+    width: 100%;
+    height: 350px;
+    background-color: #d946ef; /* fucsia */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.box-blue {
+    background-color: #3b82f6; /* azul */
+    height: 250px;
+}
+
+.box-green {
+    background-color: #22c55e; /* verde */
+    height: 56px;
+    width: 100%;
+}
+
+.box-sky {
+    width: 25%;
+    height: 350px;
+    background-color: #0ea5e9; /* celeste */
+}
