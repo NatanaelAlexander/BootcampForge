@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.632);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 1px 10px;
+}
+
+.button1 {
+    width: auto;
+    white-space: nowrap;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 71, 222);
+    padding: 5px;
+    font-weight: 500;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: rgb(20, 26, 195);
+}
+
+div {
+    border: solid 2px black;
+    padding: 15px;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.likes {
+    background-color: yellow;
+    padding: 2px 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(4, 61, 4);
+}
+
+h4 {
+    white-space: nowrap;
+}
+
+.hidden {
+    display: none;
+}
