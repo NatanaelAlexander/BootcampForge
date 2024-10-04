@@ -2,7 +2,12 @@ package clases;
 
 public class Algoritmos {
 
+    public String a;
+
+    public int numero;
+
     public static boolean esPar(int n) {
+        /* return n % 2 == 0; */
         return (n % 2 == 0);
     }
 
@@ -24,8 +29,11 @@ public class Algoritmos {
         String nuevaPalabra = "";
 
         for (int i = palabra.length() - 1; i >= 0; i--) {
+
             nuevaPalabra += palabra.charAt(i);
+            /* Hola */
         }
+
         return nuevaPalabra;
     }
 
